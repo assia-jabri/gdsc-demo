@@ -31,3 +31,29 @@ Before running the API, make sure you have the following installed:
 
 3. Build and run the API:
 
+
+The API will be running on `http://localhost:8080`.
+
+## API Endpoints
+
+The following endpoints are available:
+
+- `GET /api/students`: Retrieves all students.
+- `GET /api/students/{id}`: Retrieves a specific student by ID.
+- `POST /api/students`: Creates a new student.
+- `PUT /api/students/{id}`: Updates a student by ID.
+- `DELETE /api/students/{id}`: Deletes a student by ID.
+
+The student object has the following attributes:
+
+- `id`: Unique identifier for the student.
+- `name`: Name of the student.
+- `age`: Age of the student.
+- `email`: Grade of the student.
+
+Please note that for POST and PUT requests, the request body should contain a JSON object representing the student with the required attributes.
+
+
+
+
+
